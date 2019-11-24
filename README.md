@@ -23,10 +23,10 @@ The image recognition algorithm (pre-trained neural net) would be trained to ide
 This stage of the capstone project is about building on Stage-1's results and train the convolutional neural network from the scratch along with the object detection module (YOLO). The results of this stage would be compared and contrasted with the results of Stage-1.
 
 ## STAGE 2.1: Vehicle detection
-The convolutional neural network responsible for feature extraction and classification would be trained on image datasets of **vehicle classes** only. Then the trained neural network would be connected to the object detection module to further train the model to identify and predict the position of the vehicles in a general image dataset (image datasets for autonomous driving research) to form the complete neural network architecture. 
+The convolutional neural network responsible for feature extraction and classification would be trained on image datasets of **vehicle classes** only. Then the trained neural network would be connected to the object detection module to further train the model to identify and predict the position of the vehicle class objects in a general image dataset (image datasets for autonomous driving research) to form the complete neural network architecture. 
 
 ## STAGE 2.2: Pedestrian detection
-The convolutional neural network responsible for feature extraction and classification would be trained on image datasets of **pedestrian classes** only. Then the trained neural network would be connected to the object detection module to further train the model to identify and predict the position of the vehicles in a general image dataset (image datasets for autonomous driving research) to form the complete neural network architecture. 
+The convolutional neural network responsible for feature extraction and classification would be trained on image datasets of **pedestrian classes** only. Then the trained neural network would be connected to the object detection module to further train the model to identify and predict the position of the pedestrain class objects in a general image dataset (image datasets for autonomous driving research) to form the complete neural network architecture. 
 
 ## STAGE 3: Combining the two detection models based on the understanding gained from previous stages 1 and 2.
 The combined model would then be trained on multiple datasets to tune its performance and compute the final mAP score.
