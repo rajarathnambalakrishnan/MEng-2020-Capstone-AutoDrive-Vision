@@ -10,22 +10,13 @@ UC Berkeley MEng 2019 -2020 Capstone Project
 The main obejctive of this project is to build an image recognition algorithm that detects vehicles and pedestrians for autonomous driving use case with **mAP >= 0.5**.
 
 
-## STAGE 1 : Image Recognition Algorithm based on Pre-trained Network 
-The sole reason to use a pre-trained neural network is to provide a sense of code structure and to understand what the result looks like. This work would help the team to assess the range of changes that are required for **Stage 2**.
+## STAGE 1 : Classifier 
+Train a classifier for one class of objects like Pedestrian or Vehicles.
 
-### STAGE 1.1 : Vehicle Detection
-The image recognition algorithm (pre-trained neural net) would be trained to identify **vehicle or not** classification only.
+### STAGE 2. Detection 
+Attach a detection network to an already trained classifier and then again train for detection.
 
-### STAGE 1.2 : Pedestrian Detection
-The image recognition algorithm (pre-trained neural net) would be trained to identify **pedestrian or not** classification only.
-
-## STAGE 2 : Image Recognition Algorithm based on Custom Trained Neural Network 
-This stage of the capstone project is about building on Stage-1's results and train the convolutional neural network from the scratch along with the object detection module (YOLO). The results of this stage would be compared and contrasted with the results of Stage-1.
-
-## STAGE 2.1: Vehicle detection
-The convolutional neural network responsible for feature extraction and classification would be trained on image datasets of **vehicle classes** only. Then the trained neural network would be connected to the object detection module to further train the model to identify and predict the position of the vehicle class objects in a general image dataset (image datasets for autonomous driving research) to form the complete neural network architecture. 
-
-## STAGE 2.2: Pedestrian detection
-The convolutional neural network responsible for feature extraction and classification would be trained on image datasets of **pedestrian classes** only. Then the trained neural network would be connected to the object detection module to further train the model to identify and predict the position of the pedestrain class objects in a general image dataset (image datasets for autonomous driving research) to form the complete neural network architecture. 
+### STAGE 3. Repeat the above stages for the remaining class of objects
+After satisfactory performance and standards in stage 1 and 2, build similar networks for the remaining class of objects.
 
 ## Final presentation of the results on video feed.
