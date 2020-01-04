@@ -10,7 +10,7 @@ UC Berkeley MEng 2019 -2020 Capstone Project
 The main obejctive of this project is to build an image recognition algorithm that detects vehicles and pedestrians for autonomous driving use case with **mAP >= 0.5**.
 
 
-## STAGE 1 : Classifier 
+### STAGE 1 : Classifier 
 Train a classifier for one class of objects like Pedestrian or Vehicles.
 
 ### STAGE 2. Detection 
