@@ -7,7 +7,7 @@
 #### Xeuqi Zhao |  UC Berkeley MEng '20(IEOR)
 #### Xinyue Liu |  UC Berkeley MEng '20(IEOR)
 
-The main obejctive of this project is to build an image recognition algorithm that detects vehicles and pedestrians for autonomous driving use case.
+The main objective of this project is to build an image recognition algorithm that detects vehicles and pedestrians for autonomous driving use case.
 
 
 ### STAGE 1 : Classifiers - ResNet , DenseNet 
