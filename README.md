@@ -11,7 +11,7 @@ The main obejctive of this project is to build an image recognition algorithm th
 
 
 ### STAGE 1 : Classifiers - ResNet , DenseNet 
-Train the classifiers for one class of objects like Pedestrian or Vehicles.
+Classifiers were trained on multi-class CIFAR 10 datset to enhance the feature extraction.
 
 **Training accuracy and loss graphs for ResNet**
 
