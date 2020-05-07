@@ -1,5 +1,5 @@
-# Image-Recognition-for-Autonomous-Driving
-UC Berkeley MEng 2019 -2020 Capstone Project
+# UC Berkeley MEng 2019 -2020 Capstone Project
+
 
 #### Team Members:
 #### Rajarathnam Balakrishnan | UC Berkeley MEng '20(IEOR)|rajarathnam_b@berkeley.edu
